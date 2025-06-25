@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aditya Kumar - Frontend Developer Portfolio</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">ADITYA</div>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home-section parallax">
+    <div class="home-content">
+      <h1>
+        <span>Frontend</span> Developer
+      </h1>
+      <p>Crafting beautiful, responsive web experiences with modern technologies</p>
+      <div class="social-icons">
+        <a href="https://github.com/" target="_blank" aria-label="GitHub"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="linkedin.com/in/aditya-kumar-964b38282" target="_blank" aria-label="LinkedIn"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="adityamishramth25@gmail.com" aria-label="Email"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="section about-section parallax">
+    <h2>About Me</h2>
+    <div class="about-wrapper">
+      <div class="about-content">
+        <p>
+          I'm a passionate frontend developer with over 5 years of experience creating digital experiences that users love. I specialize in React, TypeScript, and modern web technologies.
+        </p>
+        <p>
+          When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or sharing my knowledge through tech blogs and community events.
+        </p>
+        <div class="skills-tags">
+          <span>Problem Solving</span>
+          <span>Team Collaboration</span>
+          <span>Continuous Learning</span>
+          <span>User-Centric Design</span>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="img.jpg" alt="Aditya Kumar" />
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section skills-section parallax">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fa-solid fa-code"></i>
+          <span>React</span>
+          <span class="skill-percent">95%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress react"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fa-solid fa-code"></i>
+          <span>TypeScript</span>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress typescript"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fa-solid fa-code"></i>
+          <span>JavaScript</span>
+          <span class="skill-percent">95%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress javascript"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fa-solid fa-palette"></i>
+          <span>CSS/SCSS</span>
+          <span class="skill-percent">88%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress css"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fa-brands fa-css3-alt"></i>
+          <span>Tailwind CSS</span>
+          <span class="skill-percent">92%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress tailwind"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-info">
+          <i class="fa-solid fa-desktop"></i>
+          <span>Next.js</span>
+          <span class="skill-percent">85%</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress nextjs"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects-section parallax">
+    <h2>Featured Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <img src="img1.jpg" alt="E-Commerce Platform" />
+        <h3>E-Commerce Platform</h3>
+        <p>
+          A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.
+        </p>
+        <div class="project-tags">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MongoDB</span>
+          <span>Stripe</span>
+        </div>
+        <div class="project-links">
+          <a href="#" aria-label="Code">Code</a>
+          <a href="#" aria-label="Live Demo" target="_blank">Live Demo</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="img2.jpg" alt="Task Management App" />
+        <h3>Task Management App</h3>
+        <p>
+          A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.
+        </p>
+        <div class="project-tags">
+          <span>Vue.js</span>
+          <span>Firebase</span>
+          <span>Vuetify</span>
+          <span>Socket.io</span>
+        </div>
+        <div class="project-links">
+          <a href="#" aria-label="Code">Code</a>
+          <a href="#" aria-label="Live Demo" target="_blank">Live Demo</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="img3.jpg" alt="Weather Dashboard" />
+        <h3>Weather Dashboard</h3>
+        <p>
+          A responsive weather application with location-based forecasts, interactive maps, and detailed weather analytics.
+        </p>
+        <div class="project-tags">
+          <span>React</span>
+          <span>TypeScript</span>
+          <span>Chart.js</span>
+          <span>Weather API</span>
+        </div>
+        <div class="project-links">
+          <a href="#" aria-label="Code">Code</a>
+          <a href="#" aria-label="Live Demo" target="_blank">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section parallax">
+    <h2>Let's Work Together</h2>
+    <p>
+      Have a project in mind? I'd love to hear about it. Let's create something amazing together.
+    </p>
+    <a href="adityamishramth25@gmail.com" class="btn btn-primary">
+      <i class="fa-solid fa-envelope"></i> Get In Touch
+    </a>
+    <div class="social-icons contact-social">
+      <a href="https://github.com/" target="_blank" aria-label="GitHub"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a href="https://linkedin.com/in/aditya" target="_blank" aria-label="LinkedIn"
+        ><i class="fa-brands fa-linkedin-in"></i
+      ></a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Frontend Developer Portfolio. Built with HTML, CSS & FontAwesome.</p>
+  </footer>
+  <script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    navToggle.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true' || false;
+      navToggle.setAttribute('aria-expanded', !expanded);
+      navLinks.classList.toggle('nav-open');
+    });
+  </script>
+</body>
+</html>
